@@ -1,0 +1,14 @@
+        *************** Beginning of data ************************************* 
+0001.00 C                   Z-ADD     1             C                           
+0002.00 C                   DO        B                                         
+0003.00 C                   MULT      A             C                           
+0004.00 C                   ENDDO                                               
+0005.00 C                   SETON                                        LR     
+0006.00 C                                                                       
+0007.00 C     *INZSR        BEGSR                                               
+0008.00 C     *ENTRY        PLIST                                               
+0009.00 C                   PARM                    A                 5 0       
+0010.00 C                   PARM                    B                 5 0       
+0011.00 C                   PARM                    C                10 0       
+0012.00 C                   ENDSR                                               
+        ****************** End of data **************************************** 
