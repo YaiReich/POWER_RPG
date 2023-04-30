@@ -1,0 +1,20 @@
+        *************** Beginning of data ************************************* 
+0001.00 C                   Z-ADD     3             A                           
+0002.00 C                   Z-ADD     4             B                           
+0003.00 C                   Z-ADD     0             C                           
+0004.00 C     A             DSPLY                                               
+0005.00 C     B             DSPLY                                               
+0006.00 C     C             DSPLY                                               
+0007.00 C                   CALL      'POWER'       PPOWER                      
+0008.00 C     A             DSPLY                                               
+0009.00 C     B             DSPLY                                               
+0010.00 C     C             DSPLY                                               
+0011.00 C                   SETON                                        LR     
+0012.00 C                                                                       
+0013.00 C     *INZSR        BEGSR                                               
+0014.00 C     PPOWER        PLIST                                               
+0015.00 C                   PARM                    A                 5 0       
+0016.00 C                   PARM                    B                 5 0       
+0017.00 C                   PARM                    C                10 0      
+0018.00 C                   ENDSR                                              
+        ****************** End of data ***************************************
